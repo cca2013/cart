@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server --config=config/webpack.dev.js",
-	"heroku-postbuild": "npm run build",
-  },
+	"heroku-postbuild": "npm run build"
+	},
   "keywords": [
     "reactjs",
     "shopping",
