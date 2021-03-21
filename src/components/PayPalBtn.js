@@ -1,0 +1,29 @@
+import { PayPalButton } from "react-paypal-button-v2";
+import React from 'react';
+
+export function PayPalBtn(props) {
+const { amount, currency, createSubscription, onApprove, catchError,onError, onCancel} = props;
+const paypalKey = "Af-fYBfxdt4MW3va4tNsZZ9tvYD0MefkEAkqUqUca1Fc05rS0Dl-9dr6dHrd6nOobf15rYaXcQP8ZRzI"
+return (
+<PayPalButton
+amount={amount}
+currency={currency}
+createSubscription={(data, details) => createSubscription(data, details)}
+onApprove={(data, details) => onApprove(data, details)}
+onError={(err) => onError(err)}
+catchError={(err) => catchError(err)}
+onCancel={(err) => onCancel(err)}
+options={{
+clientId: paypalKey,
+vault:true
+}}
+style={{
+shape: 'rect',
+color: 'blue',
+layout: 'horizontal',
+label: 'subscribe',
+}}
+/>
+);
+}
+export default PayPalBtn;
