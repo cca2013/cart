@@ -6,7 +6,7 @@
   "scripts": {
     "package": "webpack-dev-server --config=config/webpack.dev.js",
 	"deploy": "npm run package && npm start",
-	 "build": "webpack-dev-server",
+	 "build": "webpack",
     "dev-server": "webpack-dev-server"
 	},
   "keywords": [
@@ -25,7 +25,6 @@
     "react-async-script-loader": "0.3.0",
     "react-custom-scrollbars": "^4.1.1",
     "react-dom": "^16.0.0",
-  "react-modal": "3.3.2",
     "react-transition-group": "^1.1.2"
   },
   "devDependencies": {
