@@ -37,7 +37,7 @@ class App extends Component {
   // Fetch Initial Set of Products from external API
   getProducts() {
     let url =
-      "https://res.cloudinary.com/konstantinos-p-anastasiadis/raw/upload/v1616174928/products_o9c36h.json";
+      "https://res.cloudinary.com/sivadass/raw/upload/v1535817394/json/products.json";
     axios.get(url).then(response => {
       this.setState({
         products: response.data
@@ -188,3 +188,8 @@ class App extends Component {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Sta
