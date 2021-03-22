@@ -1,8 +1,8 @@
 {
-  "name": "cart3",
+  "name": "cart",
   "version": "0.1.0",
   "description": "Simple react shopping cart without using redux",
-  "main": "App.js",
+  "main": "index.js",
   "scripts": {
     "package": "webpack-dev-server --config=config/webpack.dev.js",
 	"deploy": "npm run package && npm start",
