@@ -1,9 +1,8 @@
 {
-	"type": "module",
   "name": "cart",
   "version": "0.1.0",
   "description": "Simple react shopping cart without using redux",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
 
     "package": "webpack-dev-server --config=config/webpack.dev.js",
@@ -28,6 +27,7 @@
     "react-async-script-loader": "0.3.0",
     "react-custom-scrollbars": "^4.1.1",
     "react-dom": "^16.0.0",
+  "react-modal": "3.3.2",
     "react-transition-group": "^1.1.2"
   },
   "devDependencies": {
