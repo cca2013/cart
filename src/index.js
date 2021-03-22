@@ -186,10 +186,3 @@ class App extends Component {
     );
   }
 }
-
-ReactDOM.render(<App />, document.getElementById("root"));
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Sta
