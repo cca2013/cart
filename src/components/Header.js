@@ -306,7 +306,7 @@ ReactDOM.render(element, document.getElementById('root'));
              <div className="action-block">
 	<table>		
 	<tbody><tr>
-	 <td>CHECKOUT with:  </td>
+	 <td>CHECKOUT with PAYPAL:  </td>
 			 <td>
           <PayPalBtn
           client={CLIENT}
