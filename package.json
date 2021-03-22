@@ -1,4 +1,5 @@
 {
+	"type": "module",
   "name": "cart",
   "version": "0.1.0",
   "description": "Simple react shopping cart without using redux",
