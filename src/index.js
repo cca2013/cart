@@ -186,9 +186,8 @@ class App extends Component {
     );
   }
 }
-<<<<<<< HEAD
-=======
+
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
->>>>>>> 1fbbf7e8ed86d84c3f69a739cfdcec56b013cbcf
+
