@@ -5,9 +5,11 @@
   "description": "Simple react shopping cart without using redux",
   "main": "index.js",
   "scripts": {
+
     "package": "webpack-dev-server --config=config/webpack.dev.js",
 	"deploy": "npm run package && npm start",
-	 "build": "webpack",
+	  "start": "webpack-dev-server --config=config/webpack.dev.js",
+    "build": "NODE_ENV=production webpack --config=config/webpack.prod.js",
     "dev-server": "webpack-dev-server"
 	},
   "keywords": [
